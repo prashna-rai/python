@@ -1,0 +1,43 @@
+#input ("string") -> str
+
+# age = input("Enter your age? #>>>")
+# print("your age is " ,age)
+
+# age = input("Enter your age? #>>>")
+# age = int(age)
+# if isinstance(age,str) and age.isdigit() == False:
+#     print("invalid age")
+
+# elif age>0 and age<13:
+#     print("you are child")
+
+# elif age>=13 and age<20:
+#     print("you are teenagers")
+
+# elif age<0 or age>200:
+#     print("wrong input")
+
+# else:
+#     print("either you are adult or old")
+
+# i=0
+# Top:
+# if i(i<100):
+#         print(i=1)
+#         i=i+1
+#         print("\n")
+#         goto top
+
+        #this is pseudo code for print the number between 1 to 100 
+i=0
+top:
+if(i<100): 
+  #print(i+1)
+  i=i+1
+  if(i%2==0):
+      print(f"Even Number:{i}")
+  else:
+      print(f"Odd Number:{i}")
+  goto :top
+
+
