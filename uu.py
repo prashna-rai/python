@@ -23,11 +23,15 @@
 #     print("The texts are equal.")
 # else:
 #     print("The texts are not equal.")
-string1 = "Python"
-string2 = "python"
+# string1 = "Python"
+# string2 = "python"
 
-# Case-insensitive comparison using lower() method
-if string1.lower() == string2.lower():
-    print("The strings are case-insensitive equal.")
-else:
-    print("The strings are not equal.")
+# # Case-insensitive comparison using lower() method
+# if string1.lower() == string2.lower():
+#     print("The strings are case-insensitive equal.")
+# else:
+#     print("The strings are not equal.")
+#  he casefold() method in Python is used to convert a string into lowercase, and it's
+#  particularly useful for case-insensitive string comparisons. It goes 
+# beyond lower() because it also l
+#  handles special characters and different alphabetic variations.

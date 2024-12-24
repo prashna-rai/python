@@ -59,18 +59,14 @@ else:
 # print(oo)
 
 # # encode Returns an encoded version of the string
-father_name = "some name"
-print(father_name.encode())
+# father_name = "some name"
+# print(father_name.encode())
 
 # father_name = "some name"
 # print(father_name.encode())
 
 
-
-
-
-
-
-# #tommorrow condition
+ #tommorrow condition
+ 
 
 
